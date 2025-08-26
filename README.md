@@ -84,7 +84,7 @@ Google TTS API를 통해 분석 결과와 상담 내용을 음성으로 들을 �
 
 <div align="center">
 
-![System Architecture](./Image/arch.png)
+![System Architecture](./Image/ShellterStack.png)
 
 </div>
 
