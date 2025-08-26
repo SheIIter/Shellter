@@ -159,21 +159,18 @@ API 키가 없어도 기본적인 기능을 체험할 수 있습니다:
 
 ## 👥 팀 소개
 
-### 👥 Team Members
-
-
 <table>
-  <!-- 1행 -->
   <tr>
-    <td><strong>UI/UX Designer & Data Researcher</strong></td>
-    <td><img src="./Image/yeonju.jpg" width="90" height="90" /></td>
+    <td><span style="white-space:nowrap; font-size:12px; font-weight:bold;">UI/UX Designer & Data Researcher</span></td>
+    <td><img src="./Image/yeonju.jpg" width="80" height="80" /></td>
     <td>
       <a href="https://github.com/uhSlung">
         <img src="https://img.shields.io/badge/-김연주-181717?logo=github&logoColor=white" />
       </a>
     </td>
-    <td><strong>Backend & API Developer</strong></td>
-    <td><img src="./Image/ds.jpg" width="90" height="90" /></td>
+    <td>
+    <span style="white-space:nowrap; font-size:12px; font-weight:bold;">Backend & API Developer</span></td>
+    <td><img src="./Image/ds.jpg" width="80" height="80" /></td>
     <td>
       <a href="https://github.com/poik1118">
         <img src="https://img.shields.io/badge/-박대승-181717?logo=github&logoColor=white" />
@@ -181,17 +178,16 @@ API 키가 없어도 기본적인 기능을 체험할 수 있습니다:
     </td>
   </tr>
 
-  <!-- 2행 -->
   <tr>
-    <td><strong>OCR & Document Specialist</strong></td>
-    <td><img src="./Image/sanggyun_1.png" width="90" height="90" /></td>
+    <td><span style="white-space:nowrap; font-size:12px; font-weight:bold;">OCR & Document Specialist</span></td>
+    <td><img src="./Image/sanggyun_1.png" width="80" height="80" /></td>
     <td>
       <a href="https://github.com/SSGyun">
         <img src="https://img.shields.io/badge/-신상균-181717?logo=github&logoColor=white" />
       </a>
     </td>
-    <td><strong>Frontend Developer</strong></td>
-    <td><img src="./Image/sungmin.jpg" width="90" height="90" /></td>
+    <td><span style="white-space:nowrap; font-size:12px; font-weight:bold;">Frontend Developer</span></td>
+    <td><img src="./Image/sungmin.jpg" width="80" height="80" /></td>
     <td>
       <a href="https://github.com/yoonmins">
         <img src="https://img.shields.io/badge/-윤성민-181717?logo=github&logoColor=white" />
@@ -199,17 +195,16 @@ API 키가 없어도 기본적인 기능을 체험할 수 있습니다:
     </td>
   </tr>
 
-  <!-- 3행 -->
   <tr>
-    <td><strong>QA & Content Strategist</strong></td>
-    <td><img src="./Image/jinho_1.png" width="90" height="90" /></td>
+    <td><span style="white-space:nowrap; font-size:12px; font-weight:bold;">QA & Content Strategist</span></td>
+    <td><img src="./Image/jinho_1.png" width="80" height="80" /></td>
     <td>
       <a href="https://github.com/WhyjinHoooo">
         <img src="https://img.shields.io/badge/-양진호-181717?logo=github&logoColor=white" />
       </a>
     </td>
-    <td><strong>Project Manager & RAG Architect</strong></td>
-    <td><img src="./Image/somi.jpg" width="90" height="90" /></td>
+    <td><span style="white-space:nowrap; font-size:12px; font-weight:bold;">Project Manager & RAG Architect</span></td>
+    <td><img src="./Image/somi.jpg" width="80" height="80" /></td>
     <td>
       <a href="https://github.com/sommizzu">
         <img src="https://img.shields.io/badge/-정소미-181717?logo=github&logoColor=white" />
@@ -217,17 +212,16 @@ API 키가 없어도 기본적인 기능을 체험할 수 있습니다:
     </td>
   </tr>
 
-  <!-- 4행 -->
   <tr>
-    <td><strong>Business Analyst (Risk & Data)</strong></td>
-    <td><img src="./Image/yuri.jpg" width="90" height="90" /></td>
+    <td><span style="white-space:nowrap; font-size:12px; font-weight:bold;">Business Analyst (Risk & Data)</span></td>
+    <td><img src="./Image/yuri.jpg" width="80" height="80" /></td>
     <td>
       <a href="https://github.com/janglass">
         <img src="https://img.shields.io/badge/-장유리-181717?logo=github&logoColor=white" />
       </a>
     </td>
-    <td><strong>Shellter(AI Chatbot)</strong></td>
-    <td><img src="./Image/turtle.jpg" width="90" height="90" /></td>
+    <td><span style="white-space:nowrap; font-size:12px; font-weight:bold;">Shellter(AI Chatbot)</span></td>
+    <td><img src="./Image/turtle.jpg" width="80" height="80" /></td>
     <td>
       <a href="https://github.com/SheIIter/fullstack">
         <img src="https://img.shields.io/badge/-Shellter-181717?logo=github&logoColor=white" />
