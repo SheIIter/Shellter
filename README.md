@@ -11,7 +11,7 @@
 <div align="center">
 
   | [📖 **프로젝트 소개**](#-프로젝트-소개) | [✨ **주요 기능**](#-주요-기능) |
-   [🔧 **설치 가이드**](#-설치-방법‼️)   | [💡 **사용법**](#-사용법)                   |
+   [🔧 **설치 가이드**](#-설치-방법)   | [💡 **사용법**](#-사용법)                   |
 
 </div>
 <div align="center">
@@ -95,7 +95,7 @@ Google TTS API를 통해 분석 결과와 상담 내용을 음성으로 들을 �
 
 </div>
 
-## <a href="https://github.com/SheIIter/fullstack/blob/main/README.md">🚀 설치 방법‼️<a>
+## <a href="https://github.com/SheIIter/fullstack/blob/main/README.md">🚀 설치 방법<a>
 
 ## 💡 사용법
 
@@ -163,7 +163,7 @@ API 키가 없어도 기본적인 기능을 체험할 수 있습니다:
 | :-------------------------: | :--------------------------: | :---------------------------: | :--------------------------: | :---------------------------: | :-------------------------: | :--------------------------: |
 | <img src="./Image/yeonju.jpg" width="90" height="90"> | <img src="./Image/ds.jpg" width="90" height="90"> | <img src="./Image/sanggyun_1.png" width="90" height="90"> | <img src="./Image/sungmin.jpg" width="90" height="90"> | <img src="./Image/jinho_1.png" width="90" height="90"> | <img src="./Image/somi.jpg" width="90" height="90"> | <img src="./Image/yuri.jpg" width="90" height="90"> |
 | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 김연주](https://github.com/uhSlung) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 박대승](https://github.com/poik1118) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 신상균](https://github.com/SSGyun) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 윤성민](https://github.com/yoonmins) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 양진호](https://github.com/WhyjinHoooo) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 정소미](https://github.com/sommizzu) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 장유리](https://github.com/janglass) 
-|
+
 
 
 ## 📞 연락처
