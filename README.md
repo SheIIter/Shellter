@@ -1,31 +1,28 @@
 # Shellter
-[AI 부동산 법률 비서] 부동산 계약서의 숨은 위험을 찾아내고, 당신의 소중한 자산을 지켜드립니다.
-
+> ### [AI 부동산 법률 비서] 부동산 계약서의 숨은 위험을 찾아내고, 당신의 소중한 자산을 지켜드립니다.
 <div align="center">
-  <img src="./Image/logo.png" alt="SHELLTER 로고" width="200"/>
+  <img src="./Image/logo.png" alt="SHELLTER 로고" width="20%"/>
 </div>
 
-> 🐢 부동산 계약서의 숨은 위험을 찾아내고, 당신의 소중한 자산을 지켜드립니다.
->
-> AI 기반 부동산 계약서 분석과 실시간 법률 상담을 제공하는 똑똑한 법률 비서
+> 부동산 계약서의 숨은 위험을 찾아내고, 당신의 소중한 자산을 지켜드립니다.🐢    
+> AI 기반 부동산 계약서 분석과 실시간 법률 상담을 제공하는 똑똑한 법률 비서 🧑‍⚖️
 
 <div align="center">
 
-| [📋 **프로젝트 문서**](./docs) | [🚀 **라이브 데모**](http://localhost:7860) |
-| ------------------------------ | ------------------------------------------- |
-| [🔧 **설치 가이드**](#-설치)   | [💡 **사용법**](#-사용법)                   |
+  | [📋 **프로젝트 문서**](https://www.notion.so/developeryoonmine/NVIDIA-Shellter-Workspace-1-2535751058ca80299671e33533dfebdd?source=copy_link) | [🚀 **라이브 데모**](http://localhost:7860) |
+   [🔧 **설치 가이드**](#-설치방법(Click‼️))   | [💡 **사용법**](#-사용법)                   |
 
 </div>
-
 <div align="center">
   <a href="#-주요-기능">
-    <img src="https://img.shields.io/badge/SHELLTER_체험하기-10b981?style=for-the-badge&logoColor=white" alt="SHELLTER Service"/>
+    <img src="https://img.shields.io/badge/SHELLTER_체험하기-10B981?style=for-the-badge&logoColor=white" alt="SHELLTER Service"/>
   </a>
 </div>
 
 ## 📖 프로젝트 소개
 
 ### 개요
+![shellter_des.png](./Image/shellter_desc.png)
 
 SHELLTER는 복잡한 부동산 계약서를 AI가 분석하여 임차인을 보호하는 스마트 법률 비서입니다.
 
@@ -87,7 +84,6 @@ Google TTS API를 통해 분석 결과와 상담 내용을 음성으로 들을 �
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
 
 ### AI Services
-![Upstage](https://img.shields.io/badge/Upstage_Solar-FF4B4B?style=for-the-badge&logo=ai&logoColor=white)
 ![Google_TTS](https://img.shields.io/badge/Google_TTS-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![DeepL](https://img.shields.io/badge/DeepL-0F2B46?style=for-the-badge&logo=deepl&logoColor=white)
 
@@ -130,48 +126,7 @@ graph TB
     M --> R
 ```
 
-## 🚀 설치
-
-### 필요 조건
-
-- Python 3.8 이상
-- 각종 API 키 (선택사항)
-
-### 의존성 설치
-
-```bash
-# 기본 의존성
-pip install gradio python-dotenv pillow requests pathlib
-
-# AI 분석용 (선택)
-pip install langchain-upstage
-
-# 고급 기능용 (선택)
-pip install html2image markdown2
-```
-
-### 환경 변수 설정
-
-`.env` 파일을 프로젝트 루트에 생성하고 다음 API 키들을 설정하세요:
-
-```env
-# AI 분석용 (Upstage Solar LLM)
-UPSTAGE_API_KEY=your_upstage_api_key_here
-
-# 번역 기능용
-DEEPL_API_KEY=your_deepl_api_key_here
-
-# 음성 기능용
-GOOGLE_API_KEY=your_google_api_key_here
-```
-
-### 실행
-
-```bash
-python app.py
-```
-
-브라우저에서 `http://localhost:7860`으로 접속하면 SHELLTER를 사용할 수 있습니다.
+## <a href="https://github.com/SheIIter/fullstack/blob/main/README.md">🚀 설치 방법 (Click‼️)<a>
 
 ## 💡 사용법
 
@@ -189,7 +144,7 @@ python app.py
 3. AI 전문가의 즉시 답변 확인
 4. 필요시 번역이나 음성으로 변환
 
-### 3. 지원 파일 형식
+### 3. 지원 파일 형식(OCR)
 
 - **문서**: PDF, DOC, DOCX, HWP, TXT, MD
 - **이미지**: JPG, JPEG, PNG
@@ -233,67 +188,18 @@ API 키가 없어도 기본적인 기능을 체험할 수 있습니다:
 - 개인정보가 포함된 계약서는 마스킹 후 사용을 권장합니다
 - 민감한 계약의 경우 로컬 환경에서 실행하세요
 
-## 🔄 업데이트 계획
-
-### v2.0 계획
-- [ ] 판례 데이터베이스 연동
-- [ ] 지역별 임대료 시세 정보
-- [ ] 임대인 신용도 조회 기능
-- [ ] 계약서 템플릿 생성기
-
-### v1.5 계획
-- [ ] 더 많은 파일 형식 지원
-- [ ] 분석 정확도 개선
-- [ ] 추가 언어 지원 (태국어, 스페인어)
-- [ ] 모바일 앱 버전
-
-## 🤝 기여하기
-
-SHELLTER는 오픈소스 프로젝트입니다. 기여를 환영합니다!
-
-### 기여 방법
-1. 이 저장소를 Fork
-2. 새로운 기능 브랜치 생성 (`git checkout -b feature/amazing-feature`)
-3. 변경사항 커밋 (`git commit -m 'Add some amazing feature'`)
-4. 브랜치에 Push (`git push origin feature/amazing-feature`)
-5. Pull Request 생성
-
-### 개발 환경 설정
-
-```bash
-# 저장소 클론
-git clone https://github.com/your-username/shellter.git
-cd shellter
-
-# 가상환경 생성
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# 의존성 설치
-pip install -r requirements.txt
-
-# 개발 서버 실행
-python app.py
-```
-
-## 📄 라이센스
-
-이 프로젝트는 MIT 라이센스를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
 ## 👥 팀 소개
-### 팀원 소개
 
-|         **Backend**         |         **Backend**          |         **Frontend**          |         **Backend**          |         **Frontend**          |         **Backend**         |         **Backend**    |
+|         **frontend**         |         **Backend**          |         **Frontend**          |         **Frontend**          |         **Frontend**          |         **Frontend**         |         **Backend**    |
 | :-------------------------: | :--------------------------: | :---------------------------: | :--------------------------: | :---------------------------: | :-------------------------: | :--------------------------: |
-|      ![Null][musung]      |      ![Null][sungyun]      |      ![Null][myeonggi]      |      ![Null][minseok]      |      ![Null][junhyeok]      |      ![Null][musung]      |      ![Null][sungyun]      |
-| **[J103 Null][musung_g]** | **[J152 Null][sungyun_g]** | **[J222 Null][myeonggi_g]** | **[J235 Null][minseok_g]** | **[J249 Null][junhyeok_g]** | **[J103 Null][musung_g]** | **[J152 Null][sungyun_g]** | 
-|   _"열린 자세로 배우기"_    |     _"바로 서버 정상화"_     |  _"좋은 사람들과 좋은 시간"_  |  _"런칭 이후 서버 예외 0"_   |       _"완벽보다 완성"_       |   _"열린 자세로 배우기"_    |     _"바로 서버 정상화"_     |
+| <img src="./Image/yeonju.jpg" width="90" height="90"> | <img src="./Image/ds.jpg" width="90" height="90"> | <img src="./Image/sanggyun_1.png" width="90" height="90"> | <img src="./Image/sungmin.jpg" width="90" height="90"> | <img src="./Image/jinho_1.png" width="90" height="90"> | <img src="./Image/somi.jpg" width="90" height="90"> | <img src="./Image/yuri.jpg" width="90" height="90"> |
+| [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 김연주](https://github.com/uhSlung) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 박대승](https://github.com/poik1118) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 신상균](https://github.com/SSGyun) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 윤성민](https://github.com/yoonmins) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 양진호](https://github.com/WhyjinHoooo) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 정소미](https://github.com/sommizzu) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 장유리](https://github.com/janglass) 
+|
 
 ## 📞 연락처
 
 - **이슈 리포트**: [GitHub Issues](https://github.com/your-username/shellter/issues)
-- **기능 제안**: [GitHub Discussions](https://github.com/your-username/shellter/discussions)
-- **이메일**: shellter.support@example.com
+- **기능 제안**: [GitHub Discussions](https://github.com/your-username/shellter/discussions) 
 
 ## 🙏 감사의 말
 
@@ -308,5 +214,9 @@ SHELLTER는 다음 오픈소스 프로젝트들의 도움을 받아 개발되었
 ---
 
 <div align="center">
-  <strong>🐢 SHELLTER와 함께 안전한 부동산 거래를 시작하세요!</strong>
+  <strong>🐢 SHELLTER와 함께 안전한 부동산 거래를 시작하세요! 🧑‍⚖️</strong>
+</div>
+
+<div align="center">
+  <img src="./Image/turtle.gif" alt="SHELLTER 로고" width="200"/>
 </div>
