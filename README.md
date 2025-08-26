@@ -1,5 +1,6 @@
 # Shellter
-> ### [AI 부동산 법률 비서] 부동산 계약서의 숨은 위험을 찾아내고, 당신의 소중한 자산을 지켜드립니다.
+
+#### [ AI 부동산 법률 비서 ] 부동산 계약서의 숨은 위험을 찾아내고, 당신의 소중한 자산을 지켜드립니다.
 <div align="center">
   <img src="./Image/logo.png" alt="SHELLTER 로고" width="20%"/>
 </div>
@@ -9,13 +10,18 @@
 
 <div align="center">
 
-  | [📋 **프로젝트 문서**](https://www.notion.so/developeryoonmine/NVIDIA-Shellter-Workspace-1-2535751058ca80299671e33533dfebdd?source=copy_link) | [🚀 **라이브 데모**](http://localhost:7860) |
-   [🔧 **설치 가이드**](#-설치방법(Click‼️))   | [💡 **사용법**](#-사용법)                   |
+  | [📖 **프로젝트 소개**](#-프로젝트-소개) | [✨ **주요 기능**](#-주요-기능) |
+   [🔧 **설치 가이드**](#-설치-방법‼️)   | [💡 **사용법**](#-사용법)                   |
 
 </div>
 <div align="center">
-  <a href="#-주요-기능">
-    <img src="https://img.shields.io/badge/SHELLTER_체험하기-10B981?style=for-the-badge&logoColor=white" alt="SHELLTER Service"/>
+  <a href="https://d7257bd51dc26864ac.gradio.live/">
+    <img src="https://img.shields.io/badge/SHELLTER 이용하기-047A58?style=for-the-badge&logoColor=white" alt="SHELLTER Service"/>
+  </a>
+</div>
+<div align="center">
+  <a href="https://github.com/SheIIter/fullstack">
+    <img src="https://img.shields.io/badge/SHELLTER_문서가기-10B981?style=for-the-badge&logoColor=white" alt="SHELLTER Service"/>
   </a>
 </div>
 
@@ -78,55 +84,18 @@ Google TTS API를 통해 분석 결과와 상담 내용을 음성으로 들을 �
 
 <div align="center">
 
-### Backend & AI
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-FF6B35?style=for-the-badge&logo=gradio&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
-
-### AI Services
-![Google_TTS](https://img.shields.io/badge/Google_TTS-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![DeepL](https://img.shields.io/badge/DeepL-0F2B46?style=for-the-badge&logo=deepl&logoColor=white)
-
-### Document Processing
-![PIL](https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PDF](https://img.shields.io/badge/PDF_Processing-DC382D?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)
+![System Architecture](./Image/arch.png)
 
 </div>
 
 ## 🏗️ 시스템 아키텍처
+<div align="center">
 
-```mermaid
-graph TB
-    A[사용자] --> B[Gradio Web Interface]
-    B --> C[File Upload & Processing]
-    C --> D[Document Parser]
-    D --> E[Upstage OCR/Parser]
-    
-    B --> F[Rule-based Analysis]
-    F --> G[Safety Score Calculator]
-    
-    B --> H[AI Analysis]
-    H --> I[Upstage Solar LLM]
-    
-    B --> J[Chat Interface]
-    J --> I
-    
-    G --> K[Report Generator]
-    I --> K
-    K --> L[HTML Report]
-    K --> M[PNG Export]
-    
-    B --> N[Translation Service]
-    N --> O[DeepL API]
-    
-    B --> P[TTS Service]
-    P --> Q[Google TTS API]
-    
-    L --> R[User Download]
-    M --> R
-```
+![System Architecture](./Image/arch.png)
 
-## <a href="https://github.com/SheIIter/fullstack/blob/main/README.md">🚀 설치 방법 (Click‼️)<a>
+</div>
+
+## <a href="https://github.com/SheIIter/fullstack/blob/main/README.md">🚀 설치 방법‼️<a>
 
 ## 💡 사용법
 
@@ -190,11 +159,12 @@ API 키가 없어도 기본적인 기능을 체험할 수 있습니다:
 
 ## 👥 팀 소개
 
-|         **frontend**         |         **Backend**          |         **Frontend**          |         **Frontend**          |         **Frontend**          |         **Frontend**         |         **Backend**    |
+| <small>**UI/UX Designer & Data Researcher**</small> | <small>**Backend & API Developer**</small> | <small>**OCR & Document Specialist**</small> | <small>**Frontend Developer**</small> | <small>**QA & Content Strategist**</small> | <small>**Project Manager & RAG Architect**</small> | <small>**Business Analyst (Risk & Data)**</small> |
 | :-------------------------: | :--------------------------: | :---------------------------: | :--------------------------: | :---------------------------: | :-------------------------: | :--------------------------: |
 | <img src="./Image/yeonju.jpg" width="90" height="90"> | <img src="./Image/ds.jpg" width="90" height="90"> | <img src="./Image/sanggyun_1.png" width="90" height="90"> | <img src="./Image/sungmin.jpg" width="90" height="90"> | <img src="./Image/jinho_1.png" width="90" height="90"> | <img src="./Image/somi.jpg" width="90" height="90"> | <img src="./Image/yuri.jpg" width="90" height="90"> |
 | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 김연주](https://github.com/uhSlung) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 박대승](https://github.com/poik1118) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 신상균](https://github.com/SSGyun) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 윤성민](https://github.com/yoonmins) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 양진호](https://github.com/WhyjinHoooo) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 정소미](https://github.com/sommizzu) | [<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="vertical-align:middle;"> 장유리](https://github.com/janglass) 
 |
+
 
 ## 📞 연락처
 
