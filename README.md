@@ -45,9 +45,20 @@ SHELLTER는 `모든 임차인이 안전한 주거를 찾을 수 있도록 돕는
 ## ✨ 주요 기능
 
 ### 🔍 AI 기반 계약서 분석
-
-![계약서 분석](https://via.placeholder.com/600x300/10b981/ffffff?text=AI+Contract+Analysis)
-
+<div style="display:flex; justify-content:center;">
+  <video
+    src="./video/paper.mp4"
+    type="video/mp4"
+    style="width:80%; height:auto; max-width:1280px;"
+    autoplay
+    muted
+    playsinline
+    loop
+    controls
+    preload="metadata">
+    해당 브라우저는 video 태그를 지원하지 않습니다.
+  </video>
+</div>
 다양한 형태의 계약서(PDF, 이미지, Word 등)를 업로드하면 AI가 자동으로 분석하여 위험 요소를 찾아냅니다. 규칙 기반 안전도 검사와 AI 심층 분석을 통해 종합적인 리포트를 제공합니다.
 
 **주요 분석 항목:**
@@ -56,29 +67,57 @@ SHELLTER는 `모든 임차인이 안전한 주거를 찾을 수 있도록 돕는
 - 수선 의무 및 특약사항 분석
 - 임차인 불리 조항 탐지
 
+> - #### 🌍 다국어 번역 지원
+> DeepL API를 활용하여 분석 결과와 상담 내용을 6개 언어(한국어, 영어, 일본어, 중국어, 우크라이나어, 베트남어)로 번역 제공합니다. 외국인 임차인도 안전하게 계약할 수 있도록 지원합니다.
+
+> - #### 🔊 음성 출력 기능
+> Google TTS API를 통해 분석 결과와 상담 내용을 음성으로 들을 수 있습니다. 시각적 불편함이 있거나 이동 중에도 편리하게 정보를 확인할 수 있습니다.
+
+> - #### 📸 리포트 저장 기능
+> 분석 결과를 아름다운 PNG 이미지로 저장할 수 있습니다. 계약 당사자와 공유하거나 개인 기록용으로 활용하세요.
+
 ### 💬 실시간 AI 법률 상담
 
-![AI 상담](https://via.placeholder.com/600x300/059669/ffffff?text=Real-time+Legal+Consultation)
+<div style="display:flex; justify-content:center;">
+  <video
+    src="./video/chat.mp4"
+    type="video/mp4"
+    style="width:80%; height:auto; max-width:1280px;"
+    autoplay
+    muted
+    playsinline
+    loop
+    controls
+    preload="metadata">
+    해당 브라우저는 video 태그를 지원하지 않습니다.
+  </video>
+</div>
 
 부동산 관련 궁금한 점을 언제든 AI 법률 전문가에게 물어보세요. 전세, 월세, 보증금, 계약 갱신 등 다양한 주제에 대해 신속하고 정확한 답변을 받을 수 있습니다.
 
-### 🌍 다국어 번역 지원
+<div style="display:flex; justify-content:center;">
+  <video
+    src="./video/chatTrans.mp4"
+    type="video/mp4"
+    style="width:80%; height:auto; max-width:1280px;"
+    autoplay
+    muted
+    playsinline
+    loop
+    controls
+    preload="metadata">
+    해당 브라우저는 video 태그를 지원하지 않습니다.
+  </video>
+</div>
 
-![다국어 지원](https://via.placeholder.com/600x300/047857/ffffff?text=Multi-language+Support)
+> - #### 🌍 다국어 번역 지원
+> DeepL API를 활용하여 분석 결과와 상담 내용을 6개 언어(한국어, 영어, 일본어, 중국어, 우크라이나어, 베트남어)로 번역 제공합니다. 외국인 임차인도 안전하게 계약할 수 있도록 지원합니다.
 
-DeepL API를 활용하여 분석 결과와 상담 내용을 6개 언어(한국어, 영어, 일본어, 중국어, 우크라이나어, 베트남어)로 번역 제공합니다. 외국인 임차인도 안전하게 계약할 수 있도록 지원합니다.
+> - #### 🔊 음성 출력 기능
+> Google TTS API를 통해 분석 결과와 상담 내용을 음성으로 들을 수 있습니다. 시각적 불편함이 있거나 이동 중에도 편리하게 정보를 확인할 수 있습니다.
 
-### 🔊 음성 출력 기능
-
-![음성 기능](https://via.placeholder.com/600x300/10b981/ffffff?text=Text+to+Speech)
-
-Google TTS API를 통해 분석 결과와 상담 내용을 음성으로 들을 수 있습니다. 시각적 불편함이 있거나 이동 중에도 편리하게 정보를 확인할 수 있습니다.
-
-### 📸 리포트 저장 기능
-
-![리포트 저장](https://via.placeholder.com/600x300/059669/ffffff?text=Report+Export)
-
-분석 결과를 아름다운 PNG 이미지로 저장할 수 있습니다. 계약 당사자와 공유하거나 개인 기록용으로 활용하세요.
+> - #### 📸 리포트 저장 기능
+> 분석 결과를 아름다운 PNG 이미지로 저장할 수 있습니다. 계약 당사자와 공유하거나 개인 기록용으로 활용하세요.
 
 ## 🛠 기술 스택
 
